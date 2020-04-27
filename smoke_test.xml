@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Book-Flight Module" >
+	<test name="book-flight for 1 PAX">
+		<parameter name="NoOfPax" value="1" /> 
+	 	<parameter name="expectedPrice" value="$584 USD" /> 
+		<classes>
+			<class name="com.DemoWebTours.Test.MyTest"/>
+		</classes>
+	</test>	
+</suite>

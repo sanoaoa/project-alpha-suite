@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Book-Flight Module" duration-ms="41357" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:40Z">
+    <groups>
+    </groups>
+    <test name="book-flight for 2 PAX" duration-ms="39786" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:39Z">
+      <class name="com.DemoWebTours.Test.MyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="setUp" is-config="true" duration-ms="5824" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="setupParameters" is-config="true" duration-ms="2" started-at="2020-04-25T13:48:05Z" depends-on-methods="com.tests.BaseTest.setUp" finished-at="2020-04-25T13:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="LaunchAppURL" duration-ms="4909" started-at="2020-04-25T13:48:05Z" finished-at="2020-04-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="RegistrationTest" duration-ms="8970" started-at="2020-04-25T13:48:10Z" depends-on-methods="com.DemoWebTours.Test.MyTest.LaunchAppURL" finished-at="2020-04-25T13:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="SelectFlights()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="SelectFlights" duration-ms="7151" started-at="2020-04-25T13:48:18Z" depends-on-methods="com.DemoWebTours.Test.MyTest.RegistrationTest" finished-at="2020-04-25T13:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlights -->
+        <test-method status="PASS" signature="FlightSummeryTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="FlightSummeryTest" duration-ms="4713" started-at="2020-04-25T13:48:26Z" depends-on-methods="com.DemoWebTours.Test.MyTest.SelectFlights" finished-at="2020-04-25T13:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSummeryTest -->
+        <test-method status="PASS" signature="ConfPage()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="ConfPage" duration-ms="3249" started-at="2020-04-25T13:48:30Z" depends-on-methods="com.DemoWebTours.Test.MyTest.FlightSummeryTest" finished-at="2020-04-25T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="LogOut" duration-ms="4844" started-at="2020-04-25T13:48:34Z" depends-on-methods="com.DemoWebTours.Test.MyTest.ConfPage" finished-at="2020-04-25T13:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.DemoWebTours.Test.MyTest@e580929]" name="TearDown" is-config="true" duration-ms="74" started-at="2020-04-25T13:48:38Z" finished-at="2020-04-25T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </test> <!-- book-flight for 2 PAX -->
+    <test name="book-flight for 4 PAX" duration-ms="40286" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:39Z">
+      <class name="com.DemoWebTours.Test.MyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="setUp" is-config="true" duration-ms="5788" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="setupParameters" is-config="true" duration-ms="45" started-at="2020-04-25T13:48:05Z" depends-on-methods="com.tests.BaseTest.setUp" finished-at="2020-04-25T13:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="LaunchAppURL" duration-ms="4744" started-at="2020-04-25T13:48:05Z" finished-at="2020-04-25T13:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="RegistrationTest" duration-ms="9489" started-at="2020-04-25T13:48:09Z" depends-on-methods="com.DemoWebTours.Test.MyTest.LaunchAppURL" finished-at="2020-04-25T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="SelectFlights()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="SelectFlights" duration-ms="7298" started-at="2020-04-25T13:48:19Z" depends-on-methods="com.DemoWebTours.Test.MyTest.RegistrationTest" finished-at="2020-04-25T13:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlights -->
+        <test-method status="PASS" signature="FlightSummeryTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="FlightSummeryTest" duration-ms="4992" started-at="2020-04-25T13:48:26Z" depends-on-methods="com.DemoWebTours.Test.MyTest.SelectFlights" finished-at="2020-04-25T13:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSummeryTest -->
+        <test-method status="PASS" signature="ConfPage()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="ConfPage" duration-ms="3234" started-at="2020-04-25T13:48:31Z" depends-on-methods="com.DemoWebTours.Test.MyTest.FlightSummeryTest" finished-at="2020-04-25T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="LogOut" duration-ms="4575" started-at="2020-04-25T13:48:34Z" depends-on-methods="com.DemoWebTours.Test.MyTest.ConfPage" finished-at="2020-04-25T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.DemoWebTours.Test.MyTest@7a79be86]" name="TearDown" is-config="true" duration-ms="74" started-at="2020-04-25T13:48:39Z" finished-at="2020-04-25T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </test> <!-- book-flight for 4 PAX -->
+    <test name="book-flight for 1 PAX" duration-ms="40948" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:40Z">
+      <class name="com.DemoWebTours.Test.MyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="setUp" is-config="true" duration-ms="5908" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="setupParameters" is-config="true" duration-ms="0" started-at="2020-04-25T13:48:05Z" depends-on-methods="com.tests.BaseTest.setUp" finished-at="2020-04-25T13:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$584 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="LaunchAppURL" duration-ms="4977" started-at="2020-04-25T13:48:05Z" finished-at="2020-04-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="RegistrationTest" duration-ms="9571" started-at="2020-04-25T13:48:10Z" depends-on-methods="com.DemoWebTours.Test.MyTest.LaunchAppURL" finished-at="2020-04-25T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="SelectFlights()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="SelectFlights" duration-ms="7401" started-at="2020-04-25T13:48:19Z" depends-on-methods="com.DemoWebTours.Test.MyTest.RegistrationTest" finished-at="2020-04-25T13:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlights -->
+        <test-method status="PASS" signature="FlightSummeryTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="FlightSummeryTest" duration-ms="4817" started-at="2020-04-25T13:48:27Z" depends-on-methods="com.DemoWebTours.Test.MyTest.SelectFlights" finished-at="2020-04-25T13:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSummeryTest -->
+        <test-method status="PASS" signature="ConfPage()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="ConfPage" duration-ms="3254" started-at="2020-04-25T13:48:31Z" depends-on-methods="com.DemoWebTours.Test.MyTest.FlightSummeryTest" finished-at="2020-04-25T13:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="LogOut" duration-ms="4921" started-at="2020-04-25T13:48:35Z" depends-on-methods="com.DemoWebTours.Test.MyTest.ConfPage" finished-at="2020-04-25T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="TearDown" is-config="true" duration-ms="72" started-at="2020-04-25T13:48:40Z" finished-at="2020-04-25T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </test> <!-- book-flight for 1 PAX -->
+    <test name="book-flight for 3 PAX" duration-ms="41357" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:40Z">
+      <class name="com.DemoWebTours.Test.MyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="setUp" is-config="true" duration-ms="5784" started-at="2020-04-25T13:47:59Z" finished-at="2020-04-25T13:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="setupParameters" is-config="true" duration-ms="46" started-at="2020-04-25T13:48:05Z" depends-on-methods="com.tests.BaseTest.setUp" finished-at="2020-04-25T13:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="LaunchAppURL" duration-ms="4731" started-at="2020-04-25T13:48:05Z" finished-at="2020-04-25T13:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="RegistrationTest" duration-ms="10180" started-at="2020-04-25T13:48:09Z" depends-on-methods="com.DemoWebTours.Test.MyTest.LaunchAppURL" finished-at="2020-04-25T13:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="SelectFlights()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="SelectFlights" duration-ms="7496" started-at="2020-04-25T13:48:20Z" depends-on-methods="com.DemoWebTours.Test.MyTest.RegistrationTest" finished-at="2020-04-25T13:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlights -->
+        <test-method status="PASS" signature="FlightSummeryTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="FlightSummeryTest" duration-ms="5033" started-at="2020-04-25T13:48:27Z" depends-on-methods="com.DemoWebTours.Test.MyTest.SelectFlights" finished-at="2020-04-25T13:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSummeryTest -->
+        <test-method status="PASS" signature="ConfPage()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="ConfPage" duration-ms="3234" started-at="2020-04-25T13:48:32Z" depends-on-methods="com.DemoWebTours.Test.MyTest.FlightSummeryTest" finished-at="2020-04-25T13:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="LogOut" duration-ms="4695" started-at="2020-04-25T13:48:35Z" depends-on-methods="com.DemoWebTours.Test.MyTest.ConfPage" finished-at="2020-04-25T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.DemoWebTours.Test.MyTest@49e4cb85]" name="TearDown" is-config="true" duration-ms="74" started-at="2020-04-25T13:48:40Z" finished-at="2020-04-25T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </test> <!-- book-flight for 3 PAX -->
+  </suite> <!-- Book-Flight Module -->
+</testng-results>

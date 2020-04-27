@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Book-Flight Module" duration-ms="51388" started-at="2020-04-26T11:15:31Z" finished-at="2020-04-26T11:16:23Z">
+    <groups>
+    </groups>
+    <test name="book-flight for 1 PAX" duration-ms="51388" started-at="2020-04-26T11:15:31Z" finished-at="2020-04-26T11:16:23Z">
+      <class name="com.DemoWebTours.Test.MyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="setUp" is-config="true" duration-ms="12068" started-at="2020-04-26T11:15:31Z" finished-at="2020-04-26T11:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="setupParameters" is-config="true" duration-ms="31" started-at="2020-04-26T11:15:43Z" depends-on-methods="com.tests.BaseTest.setUp" finished-at="2020-04-26T11:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$584 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="LaunchAppURL" duration-ms="4895" started-at="2020-04-26T11:15:43Z" finished-at="2020-04-26T11:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="RegistrationTest" duration-ms="13726" started-at="2020-04-26T11:15:48Z" depends-on-methods="com.DemoWebTours.Test.MyTest.LaunchAppURL" finished-at="2020-04-26T11:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="SelectFlights()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="SelectFlights" duration-ms="7456" started-at="2020-04-26T11:16:02Z" depends-on-methods="com.DemoWebTours.Test.MyTest.RegistrationTest" finished-at="2020-04-26T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlights -->
+        <test-method status="PASS" signature="FlightSummeryTest()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="FlightSummeryTest" duration-ms="5224" started-at="2020-04-26T11:16:09Z" depends-on-methods="com.DemoWebTours.Test.MyTest.SelectFlights" finished-at="2020-04-26T11:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSummeryTest -->
+        <test-method status="PASS" signature="ConfPage()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="ConfPage" duration-ms="3259" started-at="2020-04-26T11:16:15Z" depends-on-methods="com.DemoWebTours.Test.MyTest.FlightSummeryTest" finished-at="2020-04-26T11:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="LogOut" duration-ms="4564" started-at="2020-04-26T11:16:18Z" depends-on-methods="com.DemoWebTours.Test.MyTest.ConfPage" finished-at="2020-04-26T11:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.DemoWebTours.Test.MyTest@4ec6a292]" name="TearDown" is-config="true" duration-ms="71" started-at="2020-04-26T11:16:22Z" finished-at="2020-04-26T11:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </test> <!-- book-flight for 1 PAX -->
+  </suite> <!-- Book-Flight Module -->
+</testng-results>
